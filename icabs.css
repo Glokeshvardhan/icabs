@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.one{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(41, 74, 120);
+    color:white ;
+   
+}
+.ones{
+    align-items: center;
+    margin-left: 200px;
+    padding: 10px;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+}
+.space{
+    height:20px;
+    background-color:white;
+}
+.twos{
+    width: 100%;
+    height: auto;
+}
+.two img{
+    margin-right: 120px;
+}
+.two h4{
+    margin-right: 60px;
+    color: rgb(28, 26, 26);
+}
+.third{
+    width: 100%;
+    height: auto;
+}
+.third h1{
+    color: rgb(48, 148, 188);
+    font-size: 50px;
+    padding: 20px;
+}
+.third h4{
+    font-size: 20px;
+}
+.third button{
+    width: 90px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.three{
+    margin-right: 20px;
+}
+.four h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(31, 44, 109);
+}
+.four{
+    text-align: center;
+}
+.four i{
+    margin-right: 10px;
+   
+}
+.four p{
+   
+    font-size: 15px;
+    margin-top: 40px;
+}
+.bg{
+    width: 100%;
+    height: 660px;
+    text-align: center;
+    background-image: url("netflix/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg h1{
+    color: rgb(233, 233, 3) ;
+    font-size: 30px;
+    padding: 30px;
+}
+.bg p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.bg i{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+}
+.five{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    width: 25%;
+    height: 400px;
+}
+.six{
+    width:22%;
+    height: 405px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.six figcaption{
+    margin-bottom: 20px;
+    font-size:25px;
+}
+.six  img{
+   width:100%;
+   padding: 0%;
+   
+}
+.six button{
+    float: right;
+    background-color: rgb(40, 111, 187)  ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    margin-right: 78px;
+}
+.six p{
+    color: rgba(47, 45, 45, 0.916);
+    text-align: left;
+}
+.seven h1{
+    font-size: 30px;
+    text-align: center;
+}
+.seven i{
+    align-items: center;
+    margin-left: 50%;
+}
+.seven p{
+    text-align: center;
+}
+.eigth {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+   
+}
+.eigth img{
+    width: 4%;
+    height: 6%;
+}
+.eig input{
+    width: 300px;
+    height: 30px;
+    box-shadow:  1px 1px 0.5px  rgba(71, 69, 69, 0.379);
+    border: 0cap;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.e input{
+    width: 630px;
+    height: 120px;
+}
+.eig button{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(7, 124, 248);
+    color: white;
+    font-size: 15px;
+}
+.eig select{
+    width: 300px;
+    height: 30px;
+    box-shadow:  1px 1px 0.5px  rgba(71, 69, 69, 0.379);
+    border: 0cap;
+}
+.ninth{
+    width: 100%;
+    height: 460px;
+    text-align: center;
+    background-image: url("netflix/family.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ninth h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    color: white;
+}
+.nine{
+    margin-right: 90px;
+    margin-left: 10px;
+}
+.nine h4{
+    font-size: 20px;
+    color: white;
+}
+.nine i{
+    padding: 10px;
+}
+.nine p{
+    color: white;
+    font-size: 40px;
+}
+.tenth{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.t{
+    padding: 30px;
+}
+.ten{
+    margin-right: 40px;
+}
+.ten h1{
+    padding: 10PX;
+}
+.ten h4{
+    color: rgba(48, 47, 47, 0.758);
+    text-align: left;
+}
+.eleventh{
+    background-color: rgb(28, 66, 112);
+    color: black;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.eleven h1{
+    color: yellow;
+}
+.eleven details{
+    color: black;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+.elv{
+    margin-left: 20px;
+}
+.eleven summary{
+    color: rgb(205, 205, 90);
+}
+.twle{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    color:black;
+}
+.twle h1{
+    font-size: 30px;
+    color:   #407ee7;
+}
+.tw i{
+    margin-top: 20px;
+}
+.tw p{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(43, 42, 42);
+    margin-left: 23%;
+}
+.left{
+    text-align: left;
+    margin-left: 20%;
+}
+.right{
+    text-align: right;
+    margin-right: 20%;
+}
+.twl p{
+    text-align: right;
+    margin-right: 20%;
+}
+.twl h3{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20%;
+    color:   #407ee7;
+}
+.twl h4{
+    text-align: right;
+    font-size: 15px;
+    margin-right: 20%;
+    color:  rgb(43, 42, 42);
+}
+.ta i{
+    margin-left: 10px;
+}
+.thiteen{
+    width: 100%;
+    height: auto;
+    background-color: rgb(20, 46, 77) ;
+    color: white;
+}
+.thit{
+    margin-left: 50px;
+}
+.thit h1{
+    color: yellow;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.thit m{
+    margin-left: 30px;
+}
+.last{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(15, 34, 57);
+    text-align: center;
+    padding: 0.5px;
+   
+}
+.last h4{
+    margin-right: 65%;
+}
