@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfoilo.css">
+   
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <button class="menu-button" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a web developer passionate about creating amazing websites.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello! I'm <strong>John Doe</strong>, a highly skilled <strong>Full-Stack Web Developer</strong> with over <strong>7 years</strong> of experience in building innovative, scalable, and user-centric web solutions. I have a proven track record of delivering high-quality projects for startups, businesses, and enterprises globally.
+                    </p>
+                    <p>
+                        My expertise spans a variety of modern technologies, including <strong>HTML, CSS, JavaScript, React, Angular, Node.js, and Python</strong>. With a strong foundation in <strong>UI/UX design principles</strong> and <strong>SEO optimization</strong>, I ensure every project is not only functional but also aesthetically pleasing and performance-driven.
+                    </p>
+                    <p>
+                        Over the years, I have successfully led cross-functional teams, collaborated with stakeholders, and worked on diverse projects ranging from <strong>e-commerce platforms</strong> to <strong>enterprise-level web applications</strong>.
+                    </p>
+                    <ul class="highlights">
+                        <li>📌 Certified AWS Solutions Architect</li>
+                        <li>📌 Expertise in Agile Development Methodologies</li>
+                        <li>📌 Delivered 100+ successful web projects</li>
+                    </ul>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+                <div class="about-photo">
+                    <img src="https://via.placeholder.com/400" alt="John Doe">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="icon fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Fast, responsive, and optimized websites tailored to your business needs.</p>
+                    <a href="#web-development" class="service-btn">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <i class="icon fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Creative designs that effectively communicate your brand's message.</p>
+                    <a href="#graphic-design" class="service-btn">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <i class="icon fas fa-chart-line"></i>
+                    <h3>SEO & Marketing</h3>
+                    <p>Boost your online presence with targeted marketing strategies.</p>
+                    <a href="#seo-marketing" class="service-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-description">Check out some of my recent projects.</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1-thumbnail.jpg" alt="Project 1" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of the project and its key features.</p>
+                        <a href="project1-link.html" class="portfolio-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2-thumbnail.jpg" alt="Project 2" class="portfolio-image">
+                    <div class="portfolio-content">
+                        <h3>Project Title 2</h3>
+                        <p>A brief description of the project and its key features.</p>
+                        <a href="project2-link.html" class="portfolio-btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more projects -->
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-description">Feel free to reach out for collaborations or just a friendly chat!</p>
+    
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>Phone: <a href="tel:+123456789">+123 456 789</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Location: 123 Street Name, City, Country</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-globe"></i>
+                        <p>Website: <a href="https://yourportfolio.com" target="_blank">yourportfolio.com</a></p>
+                    </div>
+                </div>
+    
+                <!-- Contact Form -->
+                <form class="contact-form" action="your-server-endpoint" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
